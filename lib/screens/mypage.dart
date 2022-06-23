@@ -275,9 +275,6 @@ class _MyPageState extends State<MyPage> with TickerProviderStateMixin {
                     height: 2,
                   ),
                   _discoverPeople(),
-                  SizedBox(
-                    height: 2,
-                  ),
                   _tabView(),
                 ],
               ),

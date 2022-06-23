@@ -5,6 +5,7 @@ import 'home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'mypage.dart';
+import 'recipedetail.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -31,7 +32,7 @@ class _MainScreenState extends State<MainScreen> {
           index: _currentIndex,
           children: [
             const HomeScreen(),
-            Text('index : $_currentIndex'),
+            const RecipeDetail(),
             Text('index : $_currentIndex'),
             const ChatScreen(),
             const MyPage()
